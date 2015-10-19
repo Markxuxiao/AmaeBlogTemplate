@@ -1,0 +1,102 @@
+/**
+*本文件包含：自定义组件样式，单独的页面样式，单独页面媒体查询样式
+**/
+
+/*自定义组件*/
+/*label-list*/
+.label-list {
+	background-color: #C5C5EC;
+}
+.label-list.active,
+.label-list:hover {
+	background-color: #6868F1;
+}
+
+/*blog-list*/
+.blog-list-item {
+	position: relative;
+	margin-bottom: 10px;
+	display: block;
+	min-height: 60px;
+	background: #E0F3F3;
+}
+.blog-list-item{
+	color: #333;
+}
+.blog-list-item.active,
+.blog-list-item:hover{
+	background-color: #6FECEC;
+	color: #000;
+}
+.blog-list-item:hover .blog-list-title,
+.blog-list-item:hover .blog-list-descr{
+	color: #000;
+}
+.blog-list-img {
+	position: absolute;
+	top:5px;
+	left: 5px;
+	width: 50px;
+	height: 50px;
+}
+.blog-list-title,
+.blog-list-descr {
+	margin: 0;
+	width: 100%;
+	line-height: 1.3rem;
+
+}
+.blog-list-title {
+	padding: 5px 5px 5px 60px;
+	font-size: 1rem;
+}
+.blog-list-descr {
+	padding: 0px 5px 5px 60px;
+	font-size: 1rem;
+}
+
+/*自定义组件 END*/
+
+/*index.html*/
+.index-blog-widget {
+	color: #333;
+}
+/*blog.html*/
+.blog-post-title,
+.blog-post-date {
+	margin: 0 0 .5rem 0;
+	color: #A9A5E8;
+}
+
+@media (min-width: 1025px) {
+	.about-faq {
+		padding-left: 0;
+	}
+	.about-skills {
+		padding-right: 0;
+	}
+
+
+}
+@media (max-width: 1024px) and (min-width: 641px) {
+	.about-faq {
+		padding-left: 0;
+	}
+	.about-skills {
+		padding-right: 0;
+	}
+
+
+}
+@media (max-width: 640px) {
+	.about-faq {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.about-skills {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+
+}

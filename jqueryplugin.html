@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Mark | jQuery plugin</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="妹子ui">
+    <meta name="author" content="xuxiao">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel='icon' href='css/img/favicon.ico' type='image/ico' />
+
+    <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.4.2/css/amazeui.min.css">
+    <link rel="stylesheet" href="css/commen.css">
+    <link rel="stylesheet" href="css/page.css">
+</head>
+
+<body>
+<div class="header-mini am-header am-header-default am-header-fixed"><!-- header-mini -->
+    <div class="am-header-left am-header-nav">
+        <a href="index.html" class="">
+            <i class="am-header-icon am-icon-home"></i>
+        </a>
+    </div>
+    <h1 class="am-header-title">
+        <img src="css/img/logo.png" alt="MARK">
+    </h1>
+    <div class="am-header-right am-header-nav am-dropdown" data-am-dropdown>
+        <a href="#" class="am-dropdown-toggle">
+            <i class="am-header-icon am-icon-bars"></i>
+        </a>
+            <ul class="am-dropdown-content">
+                <li>
+                    <a href="index.html" title="Home Page">
+                        <span class="am-icon-sm am-icon-home"></span>
+                        <span class="menu-item-t">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="jqueryplugin.html" title="jQuery plugin">
+                        <span class="am-icon-sm am-icon-plug"></span>
+                        <span class="menu-item-t">jQuery plugin</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="blog.html" title="Blog">
+                        <span class="am-icon-sm am-icon-pencil-square-o"></span>
+                        <span class="menu-item-t">Blog</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html" title="About">
+                        <span class="am-icon-sm am-icon-user"></span>
+                        <span class="menu-item-t">&nbsp;About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html" title="Contact">
+                        <span class="am-icon-sm am-icon-phone-square"></span>
+                        <span class="menu-item-t">&nbsp;Contact</span>
+                    </a>
+                </li>
+            </ul>
+    </div>
+</div> <!-- header-mini END -->
+
+<header class="glb-header"><!-- Nav -->
+    <div class="logo-container">
+        <a id="logo" title="MARK" href="index.html"><img src="css/img/logo.png" alt="MARK"></a>
+    </div><!-- Logo Side END -->
+
+    <nav>
+        <ul class="menu-list">
+            <li>
+                <div class="menu-item">
+                    <a href="index.html" title="Home Page">
+                        <span class="am-icon-md am-icon-home"></span>
+                        <span class="menu-item-t">Home</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="menu-item">
+                    <a href="jqueryplugin.html" title="jQuery plugin">
+                        <span class="am-icon-md am-icon-plug"></span>
+                        <span class="menu-item-t">jQuery plugin</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="menu-item">
+                    <a href="blog.html" title="Blog">
+                        <span class="am-icon-md am-icon-pencil-square-o"></span>
+                        <span class="menu-item-t">Blog</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="menu-item">
+                    <a href="about.html" title="About">
+                        <span class="am-icon-md am-icon-user"></span>
+                        <span class="menu-item-t">&nbsp;About</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="menu-item">
+                    <a href="contact.html" title="Contact">
+                        <span class="am-icon-md am-icon-phone-square"></span>
+                        <span class="menu-item-t">Contact</span>
+                    </a>
+                </div>
+            </li>
+        </ul><!-- Menu END -->
+    </nav><!-- Nav END -->
+
+
+    <div class="menu-search">
+        <form method="post" action="#" class="menu-search-form am-form-inline" role="form">
+            <span class="am-input-group-btn">
+                <input type="text" class="menu-search-input am-form-field " name="" placeholder="search">
+                <button class="menu-search-btn am-btn am-btn-default " type="submit"><span class="am-icon-search am-icon-xs"></span></button>
+            </span>
+            
+        </form>
+
+
+        <div class="menu-search-ico am-margin-top-sm am-g">
+            <a href="#" class="am-u-md-12 am-u-lg-4">
+                <span class="am-icon-qq"></span>
+            </a> 
+            <a href="#" class="am-u-md-12 am-u-lg-4">
+                <span class="am-icon-weixin"></span>
+            </a>
+            <a href="#" class="am-u-md-12 am-u-lg-4 am-u-end">
+                <span class="am-icon-weibo"></span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<div id="page_wrap">
+    <div class="rightSide">
+
+        <div class="am-g"><!-- jquery plugin list  -->
+            <div class="am-u-sm-12">
+                <div class="glb-widget-box glb-mt-1">
+                    
+                    <div class="glb-widget-content">
+                        <div class="am-u-sm-12">
+                            <h1>jQuery plugin</h1>
+                            <hr>
+                        </div>
+                        
+                        <div class="am-u-sm-12 glb-mb-1 "> <!-- label -->
+                            <a href="javascript:(0)" class="label-list glb-mb-1 am-badge am-text-default am-round ">全部</a>
+                            <a href="javascript:(0)" class="label-list glb-mb-1 am-badge am-text-default am-round active">输入</a>
+                            <a href="javascript:(0)" class="label-list glb-mb-1 am-badge am-text-default am-round ">UI</a>
+                            <a href="javascript:(0)" class="label-list glb-mb-1 am-badge am-text-default am-round ">幻灯</a>
+                            <a href="javascript:(0)" class="label-list glb-mb-1 am-badge am-text-default am-round ">弹窗</a>
+                            <a href="javascript:(0)" class="label-list glb-mb-1 am-badge am-text-default am-round ">音频</a>
+                            <a href="javascript:(0)" class="label-list glb-mb-1 am-badge am-text-default am-round ">其它</a>
+                        </div><!-- label  NED-->
+
+                        <div class="am-u-sm-12">
+                            <ul class="am-avg-sm-1 am-avg-md-3 am-avg-lg-4 am-thumbnails">
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-7.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的Ut enim ad minim veniam, quis nostrud commodo consequat.</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a><br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-2.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-3.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。Ut enim ad minim veniam, quis nostrud commodo consequat.</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-4.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-5.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。Ut enim ad minim veniam, quis nostrud commodo consequat.</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-6.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-7.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。Ut enim ad minim veniam, quis nostrud commodo consequat.</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-8.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-2.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。Ut enim ad minim veniam, quis nostrud commodo consequat.</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-3.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-4.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-5.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-6.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-7.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-8.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-7.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-6.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-5.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-4.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+                                <li data-am-scrollspy="{animation:'fade'}" >
+                                    <div class="sHoverItem">
+                                        <img class="am-img-responsive" src="photos/metro-slider-3.png" alt="item" />
+                                        <a href="jqueryplugin-detail.html" class="sIntro" title="item"><p class="am-margin-sm sIntro-info" >这是一段简单的描述，写写这个是干啥用的。</p> <p class="glb-ms-block am-margin-sm">点击查看详情>></p></a>
+                                    </div>
+                                    <a href="#">JqueryPluginName</a>
+                                    <br>
+                                    <span class="am-icon-eye">3628</span>
+                                    <span class="am-icon-heart">523</span>
+                                    <span class="am-icon-share-alt"></span>   
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="am-g"><!-- Pagination  -->
+                            <div class="am-u-sm-12">
+                                <ul data-am-widget="pagination" class="am-pagination am-pagination-select">
+                                    <li class="am-pagination-prev ">
+                                      <a href="#" class="">上一页</a>
+                                    </li>
+                                    <li class="am-pagination-select">
+                                        <select>
+                                            <option value="#" class="">1
+                                              / 3
+                                            </option>
+                                            <option value="#" class="">2
+                                              / 3
+                                            </option>
+                                            <option value="#" class="">3
+                                              / 3
+                                            </option>
+                                        </select>
+                                    </li>
+                                    <li class="am-pagination-next ">
+                                      <a href="#" class="">下一页</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!-- Pagination END  -->
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div><!-- jquery plugin list END  -->
+
+
+
+
+        <div class="glb-footer  am-g  "><!-- Footer -->
+            <div class="am-u-sm-12  am-u-sm-12 am-u-lg-4 glb-text-c glb-mt-1 glb-mb-1">
+                <a href="#" title="Home Page">Home</a>
+                <a href="#" title="jQuery plugin">JqueryPlugin</a>
+                <a href="#" title="Blog">Blog</a>
+                <a href="#" title="About">About</a>
+            </div>
+
+            <div class="am-u-sm-12 am-u-sm-12 am-u-lg-4 glb-text-c"><!-- Follow -->
+                <a href="" class="am-icon-btn am-icon-twitter"></a>
+                <a href="" class="am-icon-btn am-icon-facebook"></a>
+                <a href="" class="am-icon-btn am-icon-github"></a>
+                <a href="" class="am-icon-btn am-icon-qq"></a>
+            </div><!-- Follow END-->
+
+            <div class="am-u-sm-12 am-u-sm-12 am-u-lg-4 glb-text-c glb-mt-1">
+                <P>Copyright © 2015.Company name All rights </P>
+            </div>
+        </div><!-- Footer END-->
+
+    </div><!-- rightSide ENDS -->
+
+</div>
+
+<div data-am-widget="gotop" class="am-gotop am-gotop-fixed" >
+    <a href="#top" title="回到顶部">
+        <span class="am-gotop-title">回到顶部</span>
+        <i class="am-gotop-icon am-icon-chevron-up"></i>
+    </a>
+</div>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="http://cdn.amazeui.org/amazeui/2.4.2/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="js/sHover.min.js"></script>
+<script src="http://cdn.amazeui.org/amazeui/2.4.2/js/amazeui.min.js"></script>
+<script src="js/int.js"></script>
+</body>
+</html>
